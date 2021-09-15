@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+
+.row-action-button {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.row-action-menu.ant-dropdown-menu {
+  width: 13rem;
+  border-radius: 0.6rem;
+
+  .ant-dropdown-menu-item {
+    display: flex;
+    align-items: center;
+    height: 4.2rem;
+    padding: 0 1.5rem;
+
+    color: $light-gray;
+    font-size: 1.3rem;
+    line-height: 2rem;
+
+    &:not(:last-of-type) {
+      border-bottom: 0.1rem solid $lighter-gray;
+    }
+
+    .ant-space-item {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      color: $primary-color;
+    }
+
+    &.menu-item-remove {
+      svg {
+        color: $red;
+      }
+    }
+
+    &.ant-dropdown-menu-item-disabled {
+      svg {
+        opacity: 0.4;
+      }
+    }
+  }
+}

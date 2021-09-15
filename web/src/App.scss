@@ -1,0 +1,17 @@
+.App {
+  height: 100%;
+  width: 100%;
+
+  .side-bar {
+    .ant-layout-sider-children {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .btn-logout {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

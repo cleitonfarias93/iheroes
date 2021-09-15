@@ -1,0 +1,25 @@
+@import 'button.scss';
+@import 'input.scss';
+@import 'select.scss';
+@import 'checkbox.scss';
+@import 'date-picker';
+
+.ant-form {
+  .ant-form-item-label {
+    padding: 0 0 0.4rem;
+
+    label {
+      font-size: 1.3rem;
+      line-height: 2rem;
+
+      color: $black;
+    }
+  }
+
+  .ant-form-item-explain {
+    padding: 0.5rem 0;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}

@@ -1,0 +1,7 @@
+.ant-picker-month-panel {
+  .ant-picker-cell {
+    .ant-picker-cell-inner::first-letter {
+      text-transform: capitalize;
+    }
+  }
+}

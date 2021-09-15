@@ -1,0 +1,21 @@
+.heroes {
+  height: 100%;
+  width: 100%;
+  padding: 10rem;
+
+  .row-btn-add {
+    margin-bottom: 2rem;
+
+    .ant-btn {
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      border-radius: 1rem;
+  
+      span {
+        margin-left: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

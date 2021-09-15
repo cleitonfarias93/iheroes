@@ -1,0 +1,39 @@
+.ant-btn {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.9rem;
+  border-radius: $border-radius-default;
+
+  span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.ant-btn-primary {
+  background-color: $primary-color;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    opacity: 0.8;
+  }
+}
+
+.link-text-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 0;
+
+  span {
+    text-align: left;
+    font-weight: 500;
+  }
+}

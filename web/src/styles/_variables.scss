@@ -1,0 +1,37 @@
+// Colors
+$white: #fff;
+$black: #121212;
+$blue: #1890ff;
+$dark-blue: #045dd5;
+$light-blue: #e7f3ff;
+$dark-red: #ff3b3b;
+$red: #ff3b3b;
+$gray: #59667a;
+$light-gray: #9a9a9a;
+$lighter-gray: #f3f2f7;
+$lightest-gray: #fcfcfc;
+$dark-green: #4F9233;
+$green: #4FC267;
+$light-green: #4FC26726;
+$lighter-green: #4FC267;
+$orange: #ffaa00;
+$lightest-orange: #fffaf2;
+
+$primary-color: $blue;
+
+// Default configs
+$margin-x-default: 1.6rem;
+$margin-y-default: 1.6rem;
+$border-radius-default: 0.4rem;
+$box-shadow-default: 0.1rem 0.1rem 0.5rem rgba($black, 0.1);
+
+// Page
+$page-background-color: #f8f8f8;
+$header-height: 8rem;
+
+// Media queries
+$smartphone: 32rem; // smartphones, iPhone, portrait 480x320 phones
+$smaller-tablet: 48.1rem; // portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.
+$portrait-tablet: 64.1rem; // portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones
+$tablet: 96.1rem; // tablet, landscape iPad, lo-res laptops ands desktops
+$laptop: 102.5rem; // big landscape tablets, laptops, and desktops

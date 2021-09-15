@@ -1,0 +1,19 @@
+.ant-tree.ant-tree-directory {
+  // Arrow icon
+  .ant-tree-switcher {
+    padding: 0.5rem 0;
+  }
+
+  // Content wrapper
+  .ant-tree-node-content-wrapper {
+    padding: 0.5rem 0;
+  }
+
+  // Node selected
+  .ant-tree-treenode-selected {
+    &:hover::before,
+    &::before {
+      background-color: rgba($primary-color, 0.75);
+    }
+  }
+}
